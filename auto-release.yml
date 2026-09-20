@@ -1,0 +1,42 @@
+name: Auto Create or Update Release on APK Upload
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.apk'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Detect APK File
+        id: get_apk
+        run: |
+          APK=$(ls *.apk 2>/dev/null | head -n 1)
+          if [ -z "$APK" ]; then
+            echo "No APK found in root."
+            exit 1
+          fi
+          echo "Found APK: $APK"
+          echo "apk_path=$APK" >> $GITHUB_OUTPUT
+
+      - name: Create or Update Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: localride
+          name: "LocalRide Android App"
+          body: "Auto-released latest APK from repository main branch."
+          draft: false
+          prerelease: false
+          files: ${{ steps.get_apk.outputs.apk_path }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
