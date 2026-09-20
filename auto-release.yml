@@ -1,4 +1,4 @@
-name: Auto Create or Update Release on APK Upload
+name: Auto Update Release on APK Upload
 
 on:
   push:
@@ -18,25 +18,15 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Detect APK File
-        id: get_apk
+      - name: Detect APK and Upload to Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           APK=$(ls *.apk 2>/dev/null | head -n 1)
           if [ -z "$APK" ]; then
-            echo "No APK found in root."
+            echo "No APK found."
             exit 1
           fi
           echo "Found APK: $APK"
-          echo "apk_path=$APK" >> $GITHUB_OUTPUT
-
-      - name: Create or Update Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: localride
-          name: "LocalRide Android App"
-          body: "Auto-released latest APK from repository main branch."
-          draft: false
-          prerelease: false
-          files: ${{ steps.get_apk.outputs.apk_path }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Create release if it doesn't exist, or overwrite existing APK with --clobber
+          gh release upload localride "$APK" --clobber || gh release create localride "$APK" --title "LocalRide Android App" --notes "Latest APK release"
