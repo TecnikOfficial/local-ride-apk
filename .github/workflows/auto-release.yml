@@ -47,3 +47,4 @@ jobs:
           fi
 
           echo "Successfully published $APK_NAME to GitHub Release!"
+
