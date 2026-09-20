@@ -1,9 +1,9 @@
 {
-  "versionName": "0.0.7",
-  "versionCode": 16,
-  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.7.apk",
-  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.7.apk",
-  "fileName": "thelocalride-v0.0.7.apk",
+  "versionName": "0.0.8",
+  "versionCode": 17,
+  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.8.apk",
+  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.8.apk",
+  "fileName": "thelocalride-v0.0.8.apk",
   "changelog": "Incoming ride alert optimizations, vehicle matching fixes, and update verification improvements.",
   "mandatory": false
 }
