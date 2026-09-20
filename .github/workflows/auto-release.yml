@@ -1,0 +1,49 @@
+name: Auto Update Release on APK Upload
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.apk'
+      - '.github/workflows/auto-release.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Detect APK and Update Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          APK=$(ls *.apk 2>/dev/null | head -n 1)
+          if [ -z "$APK" ]; then
+            echo "No APK found in repository root."
+            exit 0
+          fi
+
+          echo "Found APK: $APK"
+          APK_NAME=$(basename "$APK")
+
+          # Check if the 'localride' release already exists
+          if ! gh release view localride >/dev/null 2>&1; then
+            echo "Release 'localride' does not exist yet. Creating new release..."
+            gh release create localride "$APK" \
+              --title "LocalRide Android App ($APK_NAME)" \
+              --notes "Latest Android APK: $APK_NAME (Updated: $(date -u '+%Y-%m-%d %H:%M UTC'))"
+          else
+            echo "Release 'localride' exists. Uploading $APK..."
+            gh release upload localride "$APK" --clobber
+            gh release edit localride \
+              --title "LocalRide Android App ($APK_NAME)" \
+              --notes "Latest Android APK: $APK_NAME (Updated: $(date -u '+%Y-%m-%d %H:%M UTC'))"
+          fi
+
+          echo "Successfully published $APK_NAME to GitHub Release!"
