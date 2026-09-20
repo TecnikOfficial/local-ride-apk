@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - '**.apk'
+      - 'version.json'
       - '.github/workflows/auto-release.yml'
   workflow_dispatch:
 
