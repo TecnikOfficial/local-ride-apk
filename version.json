@@ -1,9 +1,9 @@
 {
-  "versionName": "0.0.14",
-  "versionCode": 23,
-  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.14.apk",
-  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.14.apk",
-  "fileName": "thelocalride-v0.0.14.apk",
+  "versionName": "0.0.15",
+  "versionCode": 24,
+  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.15.apk",
+  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.15.apk",
+  "fileName": "thelocalride-v0.0.15.apk",
   "changelog": "Dark mode splash screen support matching in-app theme toggle, pre-bundled high-resolution assets, and performance improvements.",
   "mandatory": false
 }
