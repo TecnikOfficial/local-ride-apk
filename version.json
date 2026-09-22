@@ -1,9 +1,9 @@
 {
-  "versionName": "0.0.16",
-  "versionCode": 25,
-  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.16.apk",
-  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.16.apk",
-  "fileName": "thelocalride-v0.0.16.apk",
-  "changelog": "Incoming ride popup notification enhancements: ride price badge avatar, prominent heading, and pickup-to-destination route subtext.",
+  "versionName": "0.0.17",
+  "versionCode": 26,
+  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.17.apk",
+  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.17.apk",
+  "fileName": "thelocalride-v0.0.17.apk",
+  "changelog": "Ride request timer synchronization between notification and in-app UI, foreground notification popup suppression, and unified 1-minute missed re-ring and 30-minute decline cooldown.",
   "mandatory": false
 }
