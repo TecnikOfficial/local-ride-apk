@@ -1,9 +1,9 @@
 {
-  "versionName": "0.0.12",
-  "versionCode": 21,
-  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.12.apk",
-  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.12.apk",
-  "fileName": "thelocalride-v0.0.12.apk",
+  "versionName": "0.0.13",
+  "versionCode": 22,
+  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.13.apk",
+  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.13.apk",
+  "fileName": "thelocalride-v0.0.13.apk",
   "changelog": "Pre-bundled high-resolution assets, grocery categories, and web engine for instantaneous offline loading.",
   "mandatory": false
 }
