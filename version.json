@@ -1,9 +1,9 @@
 {
-  "versionName": "0.0.18",
-  "versionCode": 27,
-  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.18.apk",
-  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.18.apk",
-  "fileName": "thelocalride-v0.0.18.apk",
-  "changelog": "Picture-in-picture drop navigation fix, camera selfie low lighting warning, and driver today earnings sync.",
+  "versionName": "0.0.19",
+  "versionCode": 28,
+  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.19.apk",
+  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.19.apk",
+  "fileName": "thelocalride-v0.0.19.apk",
+  "changelog": "Splash screen music continues smoothly until ended, and grocery/restaurant card enhancements.",
   "mandatory": false
 }
