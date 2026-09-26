@@ -1,9 +1,9 @@
 {
-  "versionName": "0.0.20",
-  "versionCode": 29,
-  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.20.apk",
-  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.20.apk",
-  "fileName": "thelocalride-v0.0.20.apk",
-  "changelog": "Bundled all high-definition images, vehicle icons, categories, and sound effects directly into the APK for instant offline loading with zero re-download latency, and adjusted splash music volume to 0.3.",
+  "versionName": "0.0.21",
+  "versionCode": 30,
+  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.21.apk",
+  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.21.apk",
+  "fileName": "thelocalride-v0.0.21.apk",
+  "changelog": "Added Native Firebase Phone Auth via Google Play Integrity with zero reCAPTCHA delays, automatic SMS autofill, and improved driver settings profile synchronization.",
   "mandatory": false
 }
