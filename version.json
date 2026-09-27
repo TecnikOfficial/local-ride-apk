@@ -1,9 +1,7 @@
 {
-  "versionName": "0.0.22",
-  "versionCode": 31,
-  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.22.apk",
-  "releaseDownloadUrl": "https://github.com/TecnikOfficial/local-ride-apk/releases/download/localride/thelocalride-v0.0.22.apk",
-  "fileName": "thelocalride-v0.0.22.apk",
-  "changelog": "Configured Android OAuth 2.0 Client credentials with Google Play Integrity for instant native Firebase Phone OTP and SMTP email verification.",
+  "versionName": "0.0.26",
+  "versionCode": 35,
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
+  "changelog": "Performance improvements and Google Play Store release.",
   "mandatory": false
 }
