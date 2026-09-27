@@ -1,6 +1,6 @@
 {
-  "versionName": "0.0.26",
-  "versionCode": 35,
+  "versionName": "0.0.27",
+  "versionCode": 36,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
   "changelog": "Performance improvements and Google Play Store release.",
   "mandatory": false
