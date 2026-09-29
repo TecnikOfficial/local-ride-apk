@@ -1,8 +1,6 @@
 {
-  "versionName": "0.0.29",
-  "versionCode": 38,
-  "fileName": "thelocalride-v0.0.29.apk",
-  "apkUrl": "https://raw.githubusercontent.com/TecnikOfficial/local-ride-apk/main/thelocalride-v0.0.29.apk",
+  "versionName": "0.0.30",
+  "versionCode": 39,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
   "changelog": "Performance improvements and Google Play Store release.",
   "mandatory": false
