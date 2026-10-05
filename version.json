@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.33",
-  "versionCode": 42,
+  "versionName": "0.0.35",
+  "versionCode": 44,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "Updated category images, bundled offline assets, and performance improvements.",
+  "changelog": "New official app icon and branding, updated grocery & restaurant item packshots, offline asset bundling, and performance improvements.",
   "mandatory": false
 }
