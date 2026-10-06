@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.35",
-  "versionCode": 44,
+  "versionName": "0.0.45",
+  "versionCode": 54,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "New official app icon and branding, updated grocery & restaurant item packshots, offline asset bundling, and performance improvements.",
+  "changelog": "Reliability updates for real-time ride notifications, enhanced phone OTP verification, upgraded emergency SOS actions, navigation bar refinement, and performance improvements.",
   "mandatory": false
 }
