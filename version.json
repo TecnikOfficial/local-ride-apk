@@ -1,6 +1,6 @@
 {
-  "versionName": "0.0.48",
-  "versionCode": 57,
+  "versionName": "0.0.49",
+  "versionCode": 58,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
   "changelog": "Interactive Play Store exit rating bottom sheet, settings navigation and profile switching stability enhancements, and performance optimizations.",
   "mandatory": false
