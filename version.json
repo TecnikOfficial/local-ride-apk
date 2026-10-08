@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.46",
-  "versionCode": 55,
+  "versionName": "0.0.48",
+  "versionCode": 57,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "Reliability updates for real-time ride notifications, settings page UI refinement, enhanced phone OTP verification, upgraded emergency SOS actions, and performance improvements.",
+  "changelog": "Interactive Play Store exit rating bottom sheet, settings navigation and profile switching stability enhancements, and performance optimizations.",
   "mandatory": false
 }
