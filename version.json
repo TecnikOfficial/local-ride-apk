@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.49",
-  "versionCode": 58,
+  "versionName": "0.0.52",
+  "versionCode": 61,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "Interactive Play Store exit rating bottom sheet, settings navigation and profile switching stability enhancements, and performance optimizations.",
+  "changelog": "Fixed excessive top status bar gap on Android devices with display cutouts (Nothing Phone / Pixel), optimized adaptive launcher icon with zero clipping, and refreshed restaurant catalog dishes.",
   "mandatory": false
 }
