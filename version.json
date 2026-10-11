@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.52",
-  "versionCode": 61,
+  "versionName": "0.0.53",
+  "versionCode": 62,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "Fixed excessive top status bar gap on Android devices with display cutouts (Nothing Phone / Pixel), optimized adaptive launcher icon with zero clipping, and refreshed restaurant catalog dishes.",
+  "changelog": "Major performance & battery optimizations: smart background Captain heartbeat, HTTP/2 connection pooling, multi-tier Firestore & geocoding caching, instant dashboard startup, and resilient fallback connectivity.",
   "mandatory": false
 }
