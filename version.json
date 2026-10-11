@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.53",
-  "versionCode": 62,
+  "versionName": "0.0.55",
+  "versionCode": 64,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "Major performance & battery optimizations: smart background Captain heartbeat, HTTP/2 connection pooling, multi-tier Firestore & geocoding caching, instant dashboard startup, and resilient fallback connectivity.",
+  "changelog": "Seamless in-app update progress spinner with one-tap Restart App completion, refined adaptive & default launcher icons with smooth rounded corners across all Android themes, and GPS routing accuracy improvements.",
   "mandatory": false
 }
