@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.55",
-  "versionCode": 64,
+  "versionName": "0.0.56",
+  "versionCode": 65,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "Seamless in-app update progress spinner with one-tap Restart App completion, refined adaptive & default launcher icons with smooth rounded corners across all Android themes, and GPS routing accuracy improvements.",
+  "changelog": "Instant real-time account status and suspension updates, optimized background driver presence heartbeat with resilient reconnection, and enhanced duty service reliability.",
   "mandatory": false
 }
