@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.57",
-  "versionCode": 66,
+  "versionName": "0.0.58",
+  "versionCode": 67,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "Instant real-time account status and suspension updates, optimized background driver presence heartbeat with resilient reconnection, and enhanced duty service reliability.",
+  "changelog": "Reliable lockscreen wake-up for driver ride requests and passenger incoming calls during extended sleep/Doze mode, full-screen alert intents, and high-priority dispatch delivery.",
   "mandatory": false
 }
