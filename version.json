@@ -1,6 +1,6 @@
 {
-  "versionName": "0.0.56",
-  "versionCode": 65,
+  "versionName": "0.0.57",
+  "versionCode": 66,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
   "changelog": "Instant real-time account status and suspension updates, optimized background driver presence heartbeat with resilient reconnection, and enhanced duty service reliability.",
   "mandatory": false
