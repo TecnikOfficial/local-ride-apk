@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.58",
-  "versionCode": 67,
+  "versionName": "0.0.69",
+  "versionCode": 78,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "Reliable lockscreen wake-up for driver ride requests and passenger incoming calls during extended sleep/Doze mode, full-screen alert intents, and high-priority dispatch delivery.",
+  "changelog": "Shortened location alert, sequential post-login permission prompts, removed redundant background popup, and restored WhatsApp verification heads-up alerts.",
   "mandatory": false
 }
