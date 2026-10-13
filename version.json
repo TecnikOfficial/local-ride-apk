@@ -1,6 +1,6 @@
 {
-  "versionName": "0.0.70",
-  "versionCode": 79,
+  "versionName": "0.0.71",
+  "versionCode": 80,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
   "changelog": "Shortened location alert, sequential post-login permission prompts, removed redundant background popup, and restored WhatsApp verification heads-up alerts.",
   "mandatory": false
