@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.75",
-  "versionCode": 84,
+  "versionName": "0.0.77",
+  "versionCode": 86,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "Main domain set to thelocalride.is-local.org with Cloudflare worker fallback.",
+  "changelog": "Single-tap Google in-app location accuracy auto-enable dialog.",
   "mandatory": false
 }
