@@ -1,6 +1,6 @@
 {
-  "versionName": "0.0.80",
-  "versionCode": 89,
+  "versionName": "0.0.83",
+  "versionCode": 92,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
   "changelog": "Single-tap Google in-app location accuracy auto-enable dialog.",
   "mandatory": false
