@@ -1,7 +1,7 @@
 {
-  "versionName": "0.0.86",
-  "versionCode": 95,
+  "versionName": "0.0.88",
+  "versionCode": 97,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "New splash screen audio with uninterrupted playback and restaurant & dark-store dynamic delivery pricing.",
+  "changelog": "Ad placement policy fixes to prevent overlapping interactive elements, and improved app stability.",
   "mandatory": false
 }
