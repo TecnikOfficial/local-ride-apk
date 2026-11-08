@@ -1,7 +1,7 @@
 {
   "versionName": "0.1.0",
-  "versionCode": 119,
+  "versionCode": 120,
   "playStoreUrl": "https://play.google.com/store/apps/details?id=com.localride.app",
-  "changelog": "Emergency End Ride & Order integration with rating protections, smooth back navigation without white flash, and enhanced stability.",
+  "changelog": "Seamless ad banner reuse across screen navigation, enhanced performance, and stability updates.",
   "mandatory": false
 }
